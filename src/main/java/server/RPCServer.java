@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class RPCServer {
     public static void main(String[] args) throws XmlRpcException, IOException {
+        //Edson Miguel Peralta Valdez
         System.out.println("Iniciando Servidor...");
         PropertyHandlerMapping mapping = new PropertyHandlerMapping();
         mapping.addHandler("Methods", Methods.class);
